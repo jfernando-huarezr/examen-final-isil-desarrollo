@@ -1,6 +1,3 @@
- PDF To Markdown Converter
-Debug View
-Result View
 # EXAMEN FINAL
 
 ```
@@ -39,22 +36,11 @@ o el tema de tu proyecto) y diseñar la siguiente página Web (ver el modelo de 
        el modelo.
     - **Las imágenes se pueden escoger libremente** según el tema que escoja. No deben
        ser necesariamente igual al modelo mostrado.
+
 2. ( 02 puntos) Sección BARRA SUPERIOR:
     Enlaces configurados para llamada telefónica, correo electrónico, redes sociales. Insertar
     los iconos correspondientes. Formatear según el modelo mostrado.
 
-```
-Curso : DISEÑO Y DESARROLLO WEB – SEMI PRESENCIAL
-```
-### N O T A
-
-### NRC : 3761
-
-```
-Fecha : Lunes, 24 - julio- 2023
-Horario para presentarla: De 00:00 a 23:59 Modalidad :^ Remota^
-Profesor : ERNESTO RODAS LEON
-```
 
 3. ( 02 puntos) Sección BARRA DE MENÚ:
 
@@ -63,11 +49,12 @@ Insertar el logo y opciones del menú. Formatear según el modelo mostrado. Most
 borde inferior al pasar el mouse por encima. Dejar seleccionado (con el borde) el enlace
 activo. No se requiere crear las páginas internas. El logo debe enlazarse con la página index.
 ```
-4. (0 5 puntos) Sección BANNER:
+4. (05 puntos) Sección BANNER:
     - Posicionamiento de cajas: relative/absolute.
     - Insertar una imagen que ocupe todo el ancho de la pantalla en la caja padre.
     - Colocar una caja hijo con los textos: título, párrafo, botones. Formatear según el
        modelo.
+
 5. (06 puntos) POSICIONAMIENTO DE CAJAS:
     - Posicionamiento de cajas superpuestas.
     - Titulo superpuesto entre dos cajas.
@@ -93,3 +80,6 @@ activo. No se requiere crear las páginas internas. El logo debe enlazarse con l
 ## pruebas compartidas serán sancionados con anulación del examen y
 
 ## aplicación del reglamento del alumno (comité de disciplina).
+
+
+
