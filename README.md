@@ -43,12 +43,10 @@ o el tema de tu proyecto) y diseñar la siguiente página Web (ver el modelo de 
 
 
 3. ( 02 puntos) Sección BARRA DE MENÚ:
-
-```
 Insertar el logo y opciones del menú. Formatear según el modelo mostrado. Mostrar un
 borde inferior al pasar el mouse por encima. Dejar seleccionado (con el borde) el enlace
 activo. No se requiere crear las páginas internas. El logo debe enlazarse con la página index.
-```
+
 4. (05 puntos) Sección BANNER:
     - Posicionamiento de cajas: relative/absolute.
     - Insertar una imagen que ocupe todo el ancho de la pantalla en la caja padre.
@@ -66,7 +64,7 @@ activo. No se requiere crear las páginas internas. El logo debe enlazarse con l
     - Caja de la derecha: Subtitulo con borde, párrafo y botón. Cambiar el color del botón
        al pasar el mouse por encima.
     - Considerar el tamaño de los textos que se muestra en el modelo.
-6. (0 4 puntos) DISEÑO WEB RESPONSIVE:
+6. (04 puntos) DISEÑO WEB RESPONSIVE:
     - Breakpoint para ajustar el ancho de ventana a 400px (modo celular).
     - Contenedor ajustado al 95% de la pantalla celular.
     - Ajustar adecuadamente todas las secciones al nuevo tamaño de pantalla.
