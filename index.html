@@ -4,17 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jose Fernando Huarez Reyes - Jose Fernando Huarez Reyes</title>
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header id="barra-superior"></header>
+    <header id="barra-superior">
+        <div class="contenedor">
+            <ul class="fila">
+                <li class="ubicacion">
+                    <a href="https://goo.gl/maps/8Wmpt4UAubmd2VRy5" target="_blank">
+                        <i class="fa-solid fa-location-dot"></i>  Av Daniel Hernandez 291, San Isidro
+                    </a>
+                </li>
 
-    <header id="nav-bar"></header>
+                <li class="contactos">
+                    <a href="https://api.whatsapp.com/send/?phone=51960192049&text=Hola+Dia-D+juegos&type=phone_number&app_absent=0" target="_blank">
+                        <i class="fa-solid fa-phone"></i>  960192049
+                    </a>
 
-    <section id="banner"></section>
+                    <a href="https://goo.gl/maps/8Wmpt4UAubmd2VRy5" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>  ventas@diadejuegos.com
+                    </a>
+                </li>
 
-    <section id="juego-del-mes"></section>
+                <li class="redes-sociales">
+                    <a href="https://www.facebook.com/diadjuegosdemesayrol/?locale=es_LA" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/diadjuegos?lang=es" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/diadjuegos" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header><!-- barra superior -->
+
+    <header id="cabecera" class="espaciado">
+        <div class="contenedor">
+            <nav class="nav-bar">
+                <div class="fila">
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="./img/logo.png" alt="logo" class="ajustar-ancho">
+                        </a>
+                    </div> <!-- logo -->
+
+                    <ul class="menu-opciones">
+                        <div class="fila">
+                            <li><a href="#" class="opcion-seleccionada">Inicio</a></li>
+                            <li><a href="#">Tienda</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Noticias</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                        </div>
+                    </ul> <!-- menu opciones -->
+                </div>
+            </nav> <!-- barra de navegacion -->
+        </div> <!-- contenedor -->
+    </header><!-- cabecera -->
+
+    <section id="banner">
+        <img src="./img/banner2.jpg" alt="banner" class="ajustar_ancho gradiente">
+            <div class="contenedor-banner">
+                <h2>La mejor tienda de <br>
+                    juegos de mesa del Perú
+                </h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Molestias dignissimos <br>
+                    ipsum nobis, adipisci nisi necessitatibus <br>
+                    amet aliquid quo eius asperiores porro eligendi
+                </p>
+
+                <ul class="botones fila">
+                    <li><button>Nuestros Juegos</button></li>
+                    <li><button>Juegos del mes</button></li>
+                </lu>
+            </div>
+    </section><!-- banner -->
+
+    <section id="juego-mes">
+        <h1>Juego recomendado</h2>
+
+
+        <div class="descripcion-juego">
+            <div class="enunciado-juego">
+                <h2>Carcassone</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima at tempora hic quidem expedita modi odit esse. Eius, architecto beatae.</p>
+            </div>
+
+            <div class="imagen-juego">
+                <img src="./img/carcassone.jpg" alt="Carcassone">
+            </div>
+        </div>
+    </section><!-- juego del mes -->
     
 </body>
 </html>

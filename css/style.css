@@ -4,8 +4,14 @@
 
 
 :root {
-    --fuenteTitulos: font-family: 'Oswald', sans-serif;
-    --fuenteCuerpo:font-family: 'Poppins', sans-serif;
+
+    --backgroundColor : #00105a;
+    --fontColorWhite: #ffff;
+    --fontColorBlack: black;
+    --fontColor2: #1dd5ca;
+    --fontColor3: #99A4DA;
+    --fuenteTitulos: 'Oswald', sans-serif;
+    --fuenteCuerpo: 'Poppins', sans-serif;
 }
 
 /*elimina cualquier margen y relleno predeterminado*/
@@ -21,9 +27,202 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-size: 18px;
+    font-family: var(--fuenteCuerpo);
+}
+
+a {
+    text-decoration: none; /*quitar la decoracion de este item */
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+#barra-superior {
+    font-family: var(--fuenteTitulos);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em; /*mismo tamaño fuente caja padre, en este caso body. el tamaño por defecto es 16px*/
+    color: var(--fontColorWhite);
+    background-color: var(--backgroundColor);
+}
+
+#barra-superior .fila {
+    justify-content: space-between;
+}
+
+#barra-superior li a,i {
+    margin-right: 10px;
+    color: var(--fontColorWhite);
+}
+
+#cabecera .logo {
+    width: 100px;
+    height: auto;
+}
+
+#cabecera .fila {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecera .menu-opciones .fila {
+    align-items: center;
+    padding: 20px;
+}
+
+#cabecera .menu-opciones a {
+    color: var(--fontColor3);
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.3s ease-in-out;/*animacion al pasar el mouse del cambio de color*/
+}
+
+#cabecera .menu-opciones a:hover::after {
+    content : "";
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% -  10px);
+
+    /*barrita*/
+    background-color: var(--backgroundColor);
+    width: 20px;
+    height: 2px;
+}
+
+#cabecera .menu-opciones a:focus::after {
+    content : "";
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% -  10px);
+
+    /*barrita*/
+    background-color: var(--fontColor2);
+    width: 20px;
+    height: 2px;
+}
+
+#banner {
+    position: relative;
+}
+
+#banner img{    
+    width: 100%;
+    object-fit: cover;
+}
+
+#banner:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+
+#juego-mes {
+    position: relative;
+    padding-top: 30px;
+    background-color: var(--fontColor3);
+}
 
 .contenedor {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
+.contenedor-banner {
+    width: 40%;
+    height:max-content;
+    left: 15%;
+    top:20%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-banner > *{
+    padding-bottom: 30px;
+}
+
+.contenedor-banner h2 {
+    font-size: 2.5em;
+    color: var(--fontColor2);
+}
+
+.contenedor-banner p {
+    color: var(--fontColor3);
+    font-size: 1em;
+}
+
+.espaciado {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ajustar_ancho {  /*ajusta ancho con respecto de la caja padre*/
+    width: 100%;
+}
+
+
+.fila {
+    display: flex;  /* Activar FlexBox */
+    flex-direction: row;  /* Coloca el contenido de izquierda a derecha */
+}
+
+.columna {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.logo img {
+    display: block;
+}
+
+.botones > * {
+    padding-right: 30px;
+}
+
+.botones button {
+    padding: 10px 30px;
+    box-shadow: -9px 24px 63px 2px rgba(39,148,141,0.75);
+    border-radius: 15px;
+    border: 1px;
+    font-family: var(--fuenteTitulos);
+}
+
+.botones li:nth-child(2) button {
+    background-color: var(--fontColor3);
+}
+
+
+.descripcion-juego {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+.enunciado-juego {
+
+}
+
+.imagen-juego{
+    
+}
+
+
+
