@@ -21,6 +21,7 @@
 
     box-sizing: border-box; /* Establece el width sea el ancho final de la caja (incluendo padding y border */
     /*siempe es bueno ponerlo aqui par que los cambios en paddings y margins no afecten la visualizacion de la pagina*/
+    line-height: 1.5;
 }
 
 html {
