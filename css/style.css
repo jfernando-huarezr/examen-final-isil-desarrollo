@@ -133,9 +133,21 @@ img {
 
 #juego-mes {
     position: relative;
-    padding-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    height: auto;
     background-color: var(--fontColor3);
 }
+
+#juego-mes .contenedor{
+    max-width: 70%;
+}
+
+#juego-mes .contenedor > .fila {
+    flex-direction: column;
+}
+
 
 .contenedor {
     max-width: 80%;
@@ -209,19 +221,109 @@ img {
     background-color: var(--fontColor3);
 }
 
+.titulo-juego {
+    text-align: center;
+    font-family: var(--fuenteTitulos);
+    font-size: 2em;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: -30px;
+    margin-left: -100px;
+    z-index: 2;
+}
 
-.descripcion-juego {
-    position: absolute;
-    top: 100px;
-    left: 0px;
+.descripcion-juego .fila {
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: var(--fontColorWhite);
+    margin-left: 20%;
 }
 
 .enunciado-juego {
+    background-color: var(--fontColorWhite);
+    color: var(--backgroundColor);
+    padding: 0px 50px;
+    padding-left: 100px;
+}
 
+.enunciado-juego > * {
+    padding-top: 30px;
+}
+
+.enunciado-juego h2{
+    position: relative;
+    font-family: var(--fuenteTitulos);
+    font-size: 2.5em;
+    padding-top: 0px;
+}
+
+.enunciado-juego h2::after {
+    content : "";
+    position: absolute;
+    bottom: -10px;
+    left: calc(0%);
+
+    /*barrita*/
+    background-color: var(--fontColor2);
+    width: 100px;
+    height: 4px;
 }
 
 .imagen-juego{
-    
+    width: 100%;
+    z-index: 1;
+    margin-left: -25%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: -6px 22px 28px 0px rgba(0,0,0,0.75);
+}
+
+.imagen-juego:hover .imagen-juego-leyenda {
+    display: flex;
+    color: var(--fontColor2);
+}
+
+.imagen-juego img {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen-juego-leyenda {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 30px;
+    background-color:rgba(32,54,70,0.8) ;
+    font-size: 0.8em;
+
+    /*centrar el contenido*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    transition: all 0.3s ease-in-out;
+    display: none;
+    /*opacity: 0 tambien funciona? */
+}
+
+.imagen-juego:hover img {
+    transform: scale(1.05);
+}
+
+.saber-mas button {
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: white;
+    color: var(--backgroundColor);
+    font-family: var(--fuenteCuerpo);
+}
+
+.saber-mas button:hover {
+    background-color: var(--fontColor2);
 }
 
 
