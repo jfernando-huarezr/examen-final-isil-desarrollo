@@ -4,10 +4,8 @@
 (Período 2023 - 1 )
 ```
 ### INSTRUCCIONES:
-
 ```
-Puedes elegir un tema libre para tu página Web (p.ej. Hotel, Restaurante, Tienda virtual, etc,
-o el tema de tu proyecto) y diseñar la siguiente página Web (ver el modelo de diseño).
+Puedes elegir un tema libre para tu página Web (p.ej. Hotel, Restaurante, Tienda virtual, etc, o el tema de tu proyecto) y diseñar la siguiente página Web (ver el modelo de diseño).
 ```
 - Coloca todos los archivos en una carpeta con el nombre: **EFIN_TuNRC_TuApellidoYNombre** , por
     ejemplo: **EFIN_ 3761 _RodasErnesto**. No olvides incluir dentro de la carpeta todos los archivos y
@@ -18,11 +16,7 @@ o el tema de tu proyecto) y diseñar la siguiente página Web (ver el modelo de 
 
 ## AVISO:
 
-## El examen es personal (NO GRUPAL). Los proyectos con copias o
-
-## pruebas compartidas serán sancionados con anulación del examen y
-
-## aplicación del reglamento del alumno (comité de disciplina).
+## El examen es personal (NO GRUPAL). Los proyectos con copias o pruebas compartidas serán sancionados con anulación del examen y aplicación del reglamento del alumno (comité de disciplina).
 
 1. ( 01 punto) CONFIGURACIÓN GENERAL:
     - Al menos **una fuente de Google Fonts** para todo el sitio Web.
@@ -70,14 +64,6 @@ activo. No se requiere crear las páginas internas. El logo debe enlazarse con l
     - Ajustar adecuadamente todas las secciones al nuevo tamaño de pantalla.
     - Flexbox para mostrar contenido en modo columna (contenido de arriba hacia
        abajo).
-
-## AVISO:
-
-## El examen es personal (NO GRUPAL). Los proyectos con copias o
-
-## pruebas compartidas serán sancionados con anulación del examen y
-
-## aplicación del reglamento del alumno (comité de disciplina).
 
 
 
