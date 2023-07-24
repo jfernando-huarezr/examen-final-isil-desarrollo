@@ -55,12 +55,13 @@ img {
     background-color: var(--backgroundColor);
 }
 
-#barra-superior .fila {
-    justify-content: space-between;
+#barra-superior .contenedor .fila {
+    justify-content: center;
+    align-items: center;
 }
 
 #barra-superior li a,i {
-    margin-right: 10px;
+    padding: 0px 2px;
     color: var(--fontColorWhite);
 }
 
@@ -81,7 +82,7 @@ img {
 
 #cabecera .menu-opciones a {
     color: var(--fontColor3);
-    padding: 10px 15px;
+    padding: 5px 10px;
     position: relative;
     transition: all 0.3s ease-in-out;/*animacion al pasar el mouse del cambio de color*/
 }
@@ -200,6 +201,19 @@ img {
     flex-basis: 0;
     flex-grow: 1;
 }
+
+.ubicacion {
+    text-align: left;
+}
+
+.contactos {
+    text-align: center;
+}
+
+.redes-sociales {
+    text-align: right;
+}
+
 
 .logo img {
     display: block;

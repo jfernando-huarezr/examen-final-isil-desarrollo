@@ -1,0 +1,99 @@
+/*para una pantalla de tamaño estandar de celular (aprox 400px) */
+@media screen and (max-width:400px) {
+    #barra-superior .fila {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contenedor {
+        max-width: 95%;
+    }
+
+    .ubicacion {
+        flex-grow: 2;
+    }
+
+    .contactos {
+        flex-grow: 3;
+    }
+
+    body {
+        font-size: 0.8em;
+    }
+
+    .nav-bar .fila {
+        flex-direction: column;
+    }
+
+    .menu-opciones .fila {
+        flex-direction: row;
+    }
+
+    .contenedor-banner h2 {
+        font-size: 1.4em;
+    }
+
+    .contenedor-banner p {
+        font-size: 1em;
+    }
+
+    .contenedor-banner > *{
+        padding-bottom: 15px;
+    }
+
+    .contenedor-banner {
+        width: 70%;
+        top: 12%;
+    }
+
+    .botones > * {
+        padding-right: 10px;
+    }
+    
+    .botones button {
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+
+    #juego-mes {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #juego-mes .fila {
+        flex-direction: column ;
+    }
+
+    #cabecera .menu-opciones .fila {
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+    .descripcion-juego .fila {
+        padding: 0px;
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+    .enunciado-juego {
+        margin-top: 20px;
+        padding-left: 20px;
+        padding:20px 20px;
+        flex-grow: 1;
+    }
+
+    .imagen-juego{
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-right: -80px;
+        flex-grow: 2;
+    }
+
+    .titulo-juego {
+        font-size: 1.5em;
+        margin-bottom: -15px;
+        margin-left: 0px;
+    }
+
+}
